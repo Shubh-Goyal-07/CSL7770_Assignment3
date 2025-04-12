@@ -21,8 +21,8 @@ The code directory contains all the code related to the implementation.
 
 First, clone the repository to your local machine and navigate to the repository using the following commands:
 ```bash
-git clone https://github.com/Shubh-Goyal-07/CSL7770_Assignment_3.git
-cd CSL7770_Assignment_3
+git clone https://github.com/Shubh-Goyal-07/CSL7770_Assignment3.git
+cd CSL7770_Assignment3
 ```
 
 
