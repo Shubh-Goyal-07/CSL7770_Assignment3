@@ -2,7 +2,6 @@ import torch
 import torch.nn as nn
 
 
-# Define the LSTM-based model
 class LSTMFilterNetwork(nn.Module):
     def __init__(self, input_size=128, hidden_size=200, output_size=128):
         super(LSTMFilterNetwork, self).__init__()
@@ -24,10 +23,6 @@ class LSTMFilterNetwork(nn.Module):
     
 
 def load_model(model_path=None):
-    """
-    Load the LSTM model from a given path.
-    If no path is provided, return a new instance of the model.
-    """
     if model_path is None:
         return LSTMFilterNetwork()
     
